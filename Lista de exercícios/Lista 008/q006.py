@@ -19,12 +19,10 @@ for i in range(0, 3):
 for i in range(0, 3):
     for j in range(1,3): #Percorre apenas as notas, somando-as.    
         boletim_medias[i][1] += boletim[i][j]
-#print(boletim_medias)
 
 for i in range(0, 3):
     for j in range(1,2):
         boletim_medias[i][1] = boletim_medias[i][1] / 2 #Faz a média das notas.
-#print(boletim_medias)
 
 for i in range(0,3):
     medias.append(boletim_medias[i][1])
